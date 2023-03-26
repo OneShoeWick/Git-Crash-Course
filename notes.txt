@@ -103,7 +103,26 @@ git add .
 * You can create branches so you can make changes without changing the actual code until the code is completed. *
 git branch [name] i.e. git branch login
 
-Switch Branches
-===============
-git checkout [branchname]
-i.e. get checkout login
+*Now, if you change back to the Master branch, your changed will be reverted. *
+
+Commit Changes to Master
+========================
+git merge [branch]
+i.e. git merge login
+
+Display Remote Repository
+=========================
+git remote
+
+Add GitHub Repository
+=====================
+git remote add origin [link]
+
+Push Changes
+============
+git push -u origin main
+
+Add README
+==========
+touch README.md
+
