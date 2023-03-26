@@ -60,3 +60,32 @@ git --version
 Create File
 ===========
 touch [filename]
+
+* Create your file, write your code. Open Git Bash in the directory, then run "git init". *
+
+Set Your Name and Email w/ Git
+==============================
+git config --global user.name 'Chris Wick'
+git config --global user.email 'cwickwriting@gmail.com'
+
+Add File to Git Repository
+==========================
+git add [filename]
+
+Check File Status
+=================
+git status
+
+Remove File From Repository
+===========================
+git rm --cached index.html
+
+Add All Files w/ .html to Repository
+===========================
+git add *.html
+
+Add All Files to Repository
+===========================
+git add .
+
+* Add files to change with 'git add [filename]', then commit changes with 'git commit' and write a description for the changes made, then save and close editor window. *
