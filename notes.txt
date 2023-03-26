@@ -21,31 +21,32 @@ COMMANDS
 
 Initialize Local Git Repository
 ===============================
-$ git init
+git init
 
 Add Files to Index
 ==================
-$ git add [file]
+git add [file]
+i.e. git add index.html
 
 Check Status of Working Tree
 ============================
-$ git status
+git status
 
 Commit Changes to Index
 =======================
-$ git commit
+git commit
 
 Push to Remote Repository
 =========================
-$ git push
+git push
 
 Pull Latest Changes From Remote Repository
 ==========================================
-$ git pull
+git pull
 
 Clone Repository Into Current Directory
 =======================================
-$ git clone
+git clone [link]
 
 Install Git
 ===========
@@ -60,8 +61,12 @@ git --version
 Create File
 ===========
 touch [filename]
+i.e. touch index.html
 
-* Create your file, write your code. Open Git Bash in the directory, then run "git init". *
+- Create your file // touch index.html
+- Write your code
+- Open Git Bash in the same directory
+- Run 'git init'
 
 Set Your Name and Email w/ Git
 ==============================
@@ -71,6 +76,7 @@ git config --global user.email 'cwickwriting@gmail.com'
 Add File to Git Repository
 ==========================
 git add [filename]
+i.e. git add app.js
 
 Check File Status
 =================
@@ -78,32 +84,37 @@ git status
 
 Remove File From Repository
 ===========================
-git rm --cached index.html
+git rm --cached [filename]
+i.e. git rm --caches app.js
 
-Add All Files w/ .html to Repository
-===========================
-git add *.html
+Add All Files w/ Specific Extension to Repository
+=================================================
+git add *[extension]
+i.e. git add *.html
 
 Add All Files to Repository
 ===========================
 git add .
 
-* Add files to change with 'git add [filename]', then commit changes with 'git commit' and write a description for the changes made, then save and close editor window. *
+General Flow
+============
+- Make changes to file(s)
+- Add files to repository // git add [filename]
+- Commit changes // git commit
+- Add description of changes // 'Added Login Form.'
+- Close editor window
+ALTERNATIVELY
+- Make changes to file(s)
+- Add files to repository // git add [filename]
+- Commit changes AND add description // git commit -m 'Added Login Form'
 
-* Alternatively, you can 'git add [filename]' and then 'git commit -m '[add change message here]'. *
+- Create '.gitignore' to exclude certain files/folders from being pushed to the respositories // touch .gitignore
+- Add file name // log.txt
+- Add folder name // /dir2 (Ensure you are in the right folder, i.e. you might have to type './dir2')
+- Alternatively, ignore all of a certain file type // *.txt
 
-* 'touch .gitignore *
-
-* You simply just have to add the filename to the .gitignore file *
-
-* You can also ignore directories by finding the file path... i.e. /dir2 *
-
-* Or you can do *.text to ignore all text files. *
-
-* You can create branches so you can make changes without changing the actual code until the code is completed. *
-git branch [name] i.e. git branch login
-
-*Now, if you change back to the Master branch, your changed will be reverted. *
+* Create branches so you can make changes without affecting the original code. // git branch [branchname]
+i.e. git branch login
 
 Commit Changes to Master
 ========================
@@ -122,7 +133,8 @@ Push Changes
 ============
 git push -u origin main
 
+* Now, you can just type 'git push' to push directly to the main repository. *
+
 Add README
 ==========
 touch README.md
-
