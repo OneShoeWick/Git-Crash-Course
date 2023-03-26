@@ -99,3 +99,6 @@ git add .
 * You can also ignore directories by finding the file path... i.e. /dir2 *
 
 * Or you can do *.text to ignore all text files. *
+
+* You can create branches so you can make changes without changing the actual code until the code is completed. *
+git branch [name] i.e. git branch login
