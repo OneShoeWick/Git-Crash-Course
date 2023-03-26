@@ -89,3 +89,9 @@ Add All Files to Repository
 git add .
 
 * Add files to change with 'git add [filename]', then commit changes with 'git commit' and write a description for the changes made, then save and close editor window. *
+
+* Alternatively, you can 'git add [filename]' and then 'git commit -m '[add change message here]'. *
+
+* 'touch .gitignore *
+
+* You simply just have to add the filename to the .gitignore file *
