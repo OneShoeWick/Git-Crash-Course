@@ -102,3 +102,8 @@ git add .
 
 * You can create branches so you can make changes without changing the actual code until the code is completed. *
 git branch [name] i.e. git branch login
+
+Switch Branches
+===============
+git checkout [branchname]
+i.e. get checkout login
