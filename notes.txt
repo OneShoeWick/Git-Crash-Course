@@ -95,3 +95,7 @@ git add .
 * 'touch .gitignore *
 
 * You simply just have to add the filename to the .gitignore file *
+
+* You can also ignore directories by finding the file path... i.e. /dir2 *
+
+* Or you can do *.text to ignore all text files. *
