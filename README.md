@@ -101,18 +101,30 @@ git add .
 - Add files to repository // git add [filename]
 - Commit changes // git commit
 - Add description of changes // 'Added Login Form.'
-- Close editor window
-  ALTERNATIVELY
+- Close editor windows
+
+=============
+ALTERNATIVELY
+=============
+
 - Make changes to file(s)
 - Add files to repository // git add [filename]
 - Commit changes AND add description // git commit -m 'Added Login Form'
+
+==========
+.gitignore
+==========
 
 - Create '.gitignore' to exclude certain files/folders from being pushed to the respositories // touch .gitignore
 - Add file name // log.txt
 - Add folder name // /dir2 (Ensure you are in the right folder, i.e. you might have to type './dir2')
 - Alternatively, ignore all of a certain file type // \*.txt
 
-* Create branches so you can make changes without affecting the original code. // git branch [branchname]
+========
+Branches
+========
+
+- Create branches so you can make changes without affecting the original code. // git branch [branchname]
   i.e. git branch login
 
 # Commit Changes to Master
