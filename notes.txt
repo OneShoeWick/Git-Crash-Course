@@ -1,0 +1,62 @@
+What is Git?
+============
+- Version Control System (VCS) for tracking changes in computer files
+- Distributed version control
+- Who made what changes and when
+- Revert back at any time
+- Local and remote repositories
+
+* You have a repository on your local machine where you do your work, and then you push your changes to the remote repo. *
+
+Concepts of Git
+===============
+- Keeps track of code history
+- Take "snapshots" of your files
+- You decide when to take a snapshot by making a "commit"
+- You can visit any snapshot at any time
+- You can stage files before committing
+
+COMMANDS
+========
+
+Initialize Local Git Repository
+===============================
+$ git init
+
+Add Files to Index
+==================
+$ git add [file]
+
+Check Status of Working Tree
+============================
+$ git status
+
+Commit Changes to Index
+=======================
+$ git commit
+
+Push to Remote Repository
+=========================
+$ git push
+
+Pull Latest Changes From Remote Repository
+==========================================
+$ git pull
+
+Clone Repository Into Current Directory
+=======================================
+$ git clone
+
+Install Git
+===========
+http://git-scm.com/download/win
+
+* Git Bash > Command Line. *
+
+Check Version
+=============
+git --version
+
+Create File
+===========
+touch [filename]
